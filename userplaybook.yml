@@ -1,0 +1,7 @@
+---
+- name:
+  ansible.builtin.user:
+    name: user
+    shell: /bin/bash
+    groups: wheel
+    append: yes

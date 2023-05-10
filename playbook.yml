@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: true
+  tasks:
+  - name: "Install nano via yum"
+    ansible.builtin.yum:
+      name: tree- hosts: all
+  become: true
+  tasks:
